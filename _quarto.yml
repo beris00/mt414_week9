@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Mysite"
@@ -8,12 +9,15 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - hello.qmd
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+    
+    
 
 
 
